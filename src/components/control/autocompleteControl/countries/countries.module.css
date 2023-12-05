@@ -1,0 +1,23 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.flag {
+    flex-shrink: 0;
+    width: 50px;
+    height: 25px;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 16px;
+}
+
+.fullname {
+    font-size: 16px;
+    margin: 0 0 4px;
+}
+
+.name {
+    font-size: 14px;
+    opacity: 0.7;
+}
